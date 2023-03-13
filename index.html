@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<body>
+   <h1>Application Form</h1>
+   <form method="post">
+       <fieldset>
+            Enter your name:
+            <input type="text" placeholder="fullname" name="username"/><br/>
+            Enter your password: 
+            <input type="password" placeholder="password" /><br/>
+            Gender: <br/>
+            <input type="Radio" id="gender" name="gender" value="male"/>male
+            <input type="Radio" id="gender" name="gender" value="female"/>female<br/>
+            Enter your Description:<br/>
+            <textarea rows="3" cols="25"></textarea><br/>
+            
+            <p>This form is how much useful:</p>
+            <select name="dropdown" placeholder="select" value="select">
+                <option value="good">good</option>
+                <option value="bad">bad</option>
+                <option value="somewhat">somewhat</option>
+            </select><br/>
+            <p>how is my performance:</p>
+            <input type="checkbox" name="excelent" value="on"/>excelent<br/>
+            <input type="checkbox" name="good" value="on"/>good<br/>
+            <input type="checkbox" name="Average" value="on"/>Average<br/>
+            <input type="checkbox" name="bad" value="on"/>bad<br/>
+            <p>upload image:</p>
+            <input type="file" name="fileupload" ><br/>
+            <p></p>
+            <a href="second.html"><input type="button" value="submit"/></a><br/>
+        </fieldset>
+   </form>
+</body>
+</html>
